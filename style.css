@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial;
+
+  /* Beautiful gradient background */
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+/* Navbar */
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  height: 100vh;
+  padding: 50px;
+  text-align: center;
+
+  /* Glass effect */
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  border-radius: 20px;
+}
+
+/* Button */
+.btn {
+  padding: 12px 25px;
+  border: none;
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: #ff5722;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+}
